@@ -12,7 +12,7 @@ import sklearn
 print("Using scikit-learn version:", sklearn.__version__)
 
 # Path to store and load the model
-MODEL_PATH = "./Model/R2.pkl"
+MODEL_PATH = "./ModelAPI/R2.pkl"
 
 # Ensure model directory exists
 os.makedirs(os.path.dirname(MODEL_PATH), exist_ok=True)
